@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+
+body {
+	font-family: "Dosis" sans-serif;
+	background-color: #5C5C5C;}
+
+h3 {
+	color: #0D38C5;
+	font-size:50px;
+	text-align: center;
+	padding: 0;
+	margin:0;
+	}
+
+h5 {
+	color: #fff;
+	padding: 0px;
+	font-size: 30px;
+	text-align: center;
+	}
+
+h4 {
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+li {
+	font-family: 'Dosis', sans-serif;
+	color: #fff;
+	font-size: 40px;
+	border: 2px solid white;
+}
+
+ul {
+	list-style-type: none;
+	width: 100%;
+}
+
+img {
+	position: relative;
+}
+
+div {
+	display: inline-block;
+    height:20px;
+	width:100px;
+	background-color:#0D38C5;
+	font-family:'Dosis', sans-serif;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 8px;
+	text-align:center;
+	margin-top:2px;
+	border: 2px solid white;
+	margin-left: 43%;
+	padding: 25px;
+}
+
+.highlight {
+	background-color:#ffffff;
+	color: #0D38C5;
+}
+
+#mario {
+	background-color:#FF0000;
+	}
+
+#mario img {
+	left: 40px;
+}
+
+#luigi {
+	background-color:#008800;}
+
+#luigi img {
+	left: 50px;
+}
+#bowser {
+	background-color:#E2BE22;}
+
+#bowser img {
+	left: 1px;
+}
+
+#toad {
+	background-color:#0000FF;}
+
+#toad img {
+	left: 43px;
+}
