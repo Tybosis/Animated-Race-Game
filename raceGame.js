@@ -85,14 +85,14 @@ var move = function() {
       }
     };
       $('#marioImg').animate({
-        left: '+=' + (mario.position) +'px'}, 'slow');
+        left: '+=' + (mario.position) +'px'}, 1200);
 
       $('#luigiImg').animate({
-        left: '+=' + (luigi.position) + 'px'}, 'slow');
+        left: '+=' + (luigi.position) + 'px'}, 1200);
       $('#bowserImg').animate({
-        left: '+=' + (bowser.position) + 'px'}, 'slow');
+        left: '+=' + (bowser.position) + 'px'}, 1200);
       $('#toadImg').animate({
-        left: '+=' + (toad.position) + 'px'}, 'slow');
+        left: '+=' + (toad.position) + 'px'}, 1200);
   });
 });
 
