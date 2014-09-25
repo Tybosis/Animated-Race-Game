@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Race Game!</title>
+    <link rel="stylesheet" href="racegamestyle.css" />
+  </head>
+  <body>
+  	<section id="title">
+  		<h3 id="title">Welcome to the Race Game!</h1>
+  		<h4></h4>
+  		<h5 id="lapsTitle">Hit OK to start the race!</h3>
+  		<div id="button">OK!</div>
+		</section>
+  	<ul>
+  	  <li id="mario">Mario<img id="marioImg" src="mario.png" alt="Mario" style="width:80px;height:60px;"></li>
+  	  <li id="luigi">Luigi<img id="luigiImg" src="luigi.png" alt="luigi" style="width:70px;height:60px;"></li>
+  	  <li id="bowser">Bowser<img  id="bowserImg" src="bowser.gif" alt="bowser" style="width:80px;height:60px;"></li>
+  	  <li id="toad">Toad<img id="toadImg" src="toad.png" alt="toad" style="width:80px;height:60px;"></li>
+  	</ul>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="raceGame.js"></script>
+  </body>
+</html>
+
