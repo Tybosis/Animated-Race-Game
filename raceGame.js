@@ -31,9 +31,10 @@ var move = function() {
 }
     
   $('#ok').on('click', function() {
+    $('#ok').addClass('hidden');
     $('h4').delay(12000).show(0);
-    var mario = new Racer("Mario", 5, 6);
-    var luigi = new Racer("Luigi", 6, 5);
+    var mario = new Racer("Mario", 6, 4);
+    var luigi = new Racer("Luigi", 5, 5);
     var bowser = new Racer("bowser", 4, 7);
     var toad = new Racer("Toad", 9, 3);
     var laps = 1000;
