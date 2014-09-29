@@ -4,6 +4,10 @@ body {
 	font-family: "Dosis" sans-serif;
 	background-color: #000000;}
 
+#container {
+	width: 1200px;
+}
+
 h3 {
 	color: #0D38C5;
 	font-size:50px;
@@ -36,13 +40,14 @@ li {
 ul {
 	list-style-type: none;
 	width: 100%;
+	margin-top: 20px;
 }
 
 img {
 	position: relative;
 }
 
-div {
+.button {
 	display: inline-block;
     height:20px;
 	width:100px;
@@ -54,8 +59,10 @@ div {
 	text-align:center;
 	margin-top:2px;
 	border: 2px solid white;
-	margin-left: 43%;
 	padding: 25px;
+	margin-left: 35%;
+	clear:left;
+	cursor: pointer;
 }
 
 .highlight {
@@ -89,4 +96,10 @@ div {
 
 #toad img {
 	left: 43px;
+}
+
+#reset {
+	display: inline-block;
+	margin-left: 3%;
+	position: absolute;
 }
