@@ -24,26 +24,18 @@ $(function() {
     this.currentPosition = function() {
       return this.name + " has completed " + this.position + " laps!";
       }
-    this.stepping = function() {
-      if((Math.floor(Math.random() * 10) + 1) < this.focus) {
-        this.step = this.speed;
-    } else {
-      this.step = 0
     }
-      return this.step;
-    }
-  }
 
 var move = function() {
 
 }
     
-  $('div').on('click', function() {
+  $('#ok').on('click', function() {
     $('h4').delay(12000).show(0);
-    var mario = new Racer("Mario", 5, 5);
-    var luigi = new Racer("Luigi", 6, 4);
+    var mario = new Racer("Mario", 5, 6);
+    var luigi = new Racer("Luigi", 6, 5);
     var bowser = new Racer("bowser", 4, 7);
-    var toad = new Racer("Toad", 9, 4);
+    var toad = new Racer("Toad", 9, 3);
     var laps = 1000;
     var start=true;
 
@@ -57,10 +49,6 @@ var move = function() {
       luigi.move();
       bowser.move();
       toad.move();
-      mario.stepping();
-      luigi.stepping();
-      bowser.stepping();
-      toad.stepping();
    
       if((mario.position >= laps && luigi.position >= laps) || (mario.position >= laps && bowser.position >= laps) || (mario.position >= laps && toad.position >= laps) || (luigi.position >= laps && bowser.position >= laps) || (luigi.position >= laps && toad.position >= laps) || (bowser.position >= laps && toad.position >= laps)) {
         setInterval(function(){$("h4").text("The race ended in a tie!")}, 2000);
@@ -94,5 +82,10 @@ var move = function() {
       $('#toadImg').animate({
         left: '+=' + (toad.position) + 'px'}, 1200);
   });
+
+  $('#reset').on('click', function() {
+    location.reload();
+  });
+
 });
 
