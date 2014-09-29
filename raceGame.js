@@ -35,7 +35,7 @@ var move = function() {
     $('h4').delay(12000).show(0);
     var mario = new Racer("Mario", 6, 4);
     var luigi = new Racer("Luigi", 5, 5);
-    var bowser = new Racer("bowser", 4, 7);
+    var bowser = new Racer("bowser", 4, 6);
     var toad = new Racer("Toad", 9, 3);
     var laps = 1000;
     var start=true;
